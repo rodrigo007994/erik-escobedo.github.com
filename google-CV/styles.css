@@ -1,0 +1,272 @@
+html, body, #main {
+  height: 100%;
+  width: 100%;
+}
+
+body * {
+  font-family: Arial,sans-serif;
+  font-size: 13px;
+}
+
+.gsprite {
+  background-image: url("http://ssl.gstatic.com/gb/images/k1_a31af7ac.png");
+}
+
+#topbar {
+  height: 23px;
+  background-color: #2d2d2d;
+  border-bottom: 1px solid #000000;
+  padding-left: 6px;
+}
+
+#topbar li {
+  display: inline-block;
+  padding: 5px 7px 0 10px;
+  cursor: pointer;
+  color: #bbbbbb;
+  font-weight: 700;
+}
+
+#topbar li:hover {
+  color: #ffffff;
+}
+
+#googlebar {
+  height: 45px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#logo, #searchbar, #searchbutton {
+  float: left;
+}
+
+#logo {
+  margin-top: 4px;
+  margin-left: 16px;
+  width: 95px;
+  height: 37px;
+  background-position: -63px 0;
+}
+
+#searchbar {
+  margin-top: 8px;
+  margin-left: 65px;
+  width: 400px;
+  height: 24px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  padding-top: 3px;
+  padding-left: 8px;
+}
+
+#searchbar:hover {
+  border-color: #b9b9b9;
+}
+
+#searchbar input {
+  border: none;
+  height: 19px;
+  width: 100%;
+  font-size: 16px;
+}
+
+#searchbutton {
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+#searchbutton .button {
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 0 8px;
+  width: 56px;
+  height: 27px;
+}
+
+#searchbutton span {
+  display: block;
+  margin: 7px 19px;
+  width: 14px;
+  height: 13px;
+  background-position: -33px 0;
+}
+
+#personalinfo {
+  float: right;
+  margin-top: 8px;
+  margin-right: 15px;
+  height: 27px;
+}
+
+#personalinfo li {
+  float: left;
+  margin-left: 5px;
+}
+
+#personalinfo li.btn {
+  font-size: 14px;
+  font-weight: 700;
+  color: #999999;
+  border: 1px solid #bbbbbb;
+  border-radius: 2px;
+  background-color: #f1f1f1;
+  padding: 6px 10px;
+}
+
+#personalinfo li.btn:hover {
+  border-color: #666666;
+}
+
+#personalinfo .email {
+  padding-top: 8px;
+  margin-right: 10px;
+}
+
+#personalinfo li.btn.contact {
+  padding: 0;
+}
+
+#personalinfo .contact a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #999999;
+  padding: 6px 10px;
+  display: inline-block;
+}
+
+#panel, #map {
+  float: left;
+  height: 100%;
+}
+
+#panel {
+  width: 381px;
+}
+
+#controls {
+  padding: 8px 23px 8px 28px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+#controls li {
+  cursor: pointer;
+}
+
+#controls li:hover, #functions:hover {
+  border-color: #666666;
+}
+
+#tabs, #functions {
+  display: inline-block;
+}
+
+#tabs li {
+  padding: 8px;
+}
+
+#tabs li, #functions {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #444444;
+  border: 1px solid #bbbbbb;
+  border-radius: 2px;
+  background-color: #f1f1f1;
+}
+
+#functions {
+  float: right;
+}
+
+#functions li {
+  float: left;
+  font-size: 0;
+  width: 34px;
+  height: 27px;
+  background-repeat: no-repeat;
+}
+
+#print {
+  background-image: url('print.png');
+  background-position: 10px 7px;
+  border-right: 1px solid #bbbbbb;
+}
+
+#link {
+  background-image: url('link.png');
+  background-position: 8px 7px;
+}
+
+#content { 
+  padding-left: 44px;
+  overflow: auto;
+}
+
+#content h2 {
+  margin-top: 18px;
+  font-size: 11px;
+  font-weight: 700;
+  padding-bottom: 9px;
+  color: #666666;
+}
+
+#content h2, #content .item {
+  border-bottom: 1px solid #ebebeb;
+}
+
+#content .item {
+  padding: 7px 10px 7px 25px;
+  line-height: 16px;
+}
+
+#content .item .description {
+  font-size: 12px;
+  width: 250px;
+}
+
+#content .item .description strong {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+#content .item .description em {
+  font-style: italic;
+  font-size: 11px;
+}
+
+#content .item .period {
+  line-height: 10px;
+  text-align: center;
+  float: right;
+  font-size: 11px;
+  color: #666666;
+  width: 50px;
+}
+
+
+#letter-content {
+  display: none;
+  padding: 5px 8px 25px 0;
+}
+
+#letter-content p {
+  margin: 25px 0;
+  line-height: 20px;
+}
+
+.trackable .item {
+  cursor: pointer;
+}
+
+.trackable .item strong {
+  text-decoration: underline !important;
+  color: #15c !important;
+}
+
+.trackable .item:hover {
+  background-color: #f1f1f1;
+}
