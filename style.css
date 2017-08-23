@@ -87,6 +87,20 @@ section h3 {
 .item .description strong {
   color: #111;
 }
+section#objective {
+  background: #dbe8ff;
+}
+
+section#objective h3 {
+  background: #6097dc;
+  border-bottom: #6097dc solid 1px;
+}
+section#objective p {
+  color: #1f3b75;
+  border-left: solid 15px #3B5998;
+  padding: 15px;
+}
+
 section#experience {
   background: #fcecec;
 }
@@ -153,4 +167,16 @@ ul.items li {
   margin: 5px;
   padding: 10px;
   font-size: 17px;
+}
+
+
+.mypic {
+	width: 100px;
+	float: right;
+    padding-right: 30px;
+}
+.information {
+	padding: 15px;
+	text-align: center;
+	
 }
