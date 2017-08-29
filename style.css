@@ -87,6 +87,24 @@ section h3 {
 .item .description strong {
   color: #111;
 }
+
+section#digitalcertificate {
+  background: #e0ebff
+}
+
+section#digitalcertificate h3 {
+  background: #000000;
+  border-bottom: #000000 solid 1px;
+  font-size: 10px;
+}
+section#digitalcertificate p {
+  color: #000000;
+  border-left: solid 15px #000000;
+  padding: 15px;
+  font-size: 10px;
+}
+
+
 section#objective {
   background: #dbe8ff;
 }
